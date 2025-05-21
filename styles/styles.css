@@ -1,0 +1,109 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #fcc763, #c264fc);
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #99339973;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  position: relative;
+}
+
+form h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+
+.campo {
+  margin-bottom: 15px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fdfdfd;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.opcoes-genero {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.opcoes-genero label {
+  font-weight: normal;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Botões */
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.botoes button {
+  flex: 1;
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+
+button[type="submit"] {
+  background-color: #ff7f50;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #e0673a;
+}
+
+
+button[type="reset"] {
+  background-color: #ff7f50;
+  color: white;
+}
+
+button[type="reset"]:hover {
+  background-color: #e0673a;
+}
